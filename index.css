@@ -1,0 +1,93 @@
+@media screen and (max-width: 670px) {
+	#logoname {
+    font-size: 20px !important;
+  }
+  .nav-link {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {  
+  #linksSection {
+    display: -webkit-inline-box !important;
+    margin-left: 30% !important;
+    width: 100%;
+  }
+  .nav-link {
+    margin-right: 10px;
+    float: right;
+  }
+  #logoname {
+    text-align: center;
+  }
+  #logo {
+    padding-bottom: 0px !important;
+  }
+}
+
+
+html, body {
+  height:100%; margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+#h1 {
+  font-family: 'Michroma', sans-serif;
+}
+#footer {
+  height: 60px;
+  margin-top: auto;
+  font-family: 'Michroma', sans-serif;
+}
+
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    line-height: 34px;
+    background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
+  }
+  
+  #text {
+      width: 89%;
+      margin: 0 auto;
+  }
+
+  #bio-image {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  #bio-text {
+     margin-top: 25px !important;
+  }
+
+  #logo {
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+  }
+
+  #logoname {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+  }
+  .social {
+      width: 80px;
+      text-align: center;
+  }
+  h4 {
+    text-align: center;
+    color: darkgoldenrod;  
+    font-family: 'Michroma', sans-serif;
+    font-size: small;
+}
+
+#pics {
+    text-align: center;
+
+}
+

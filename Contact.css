@@ -1,0 +1,62 @@
+html, body {
+    height:100%; margin: 0;
+  }
+  h1 {
+    font-family: 'Michroma', sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+#logo {
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+  }
+
+  #logoname {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+  }
+
+  #footer {
+    height: 60px;
+    margin-top: auto;
+    font-family: 'Michroma', sans-serif;
+  }
+
+  @media screen and (max-width: 630px) {
+	#logoname {
+    font-size: 20px !important;
+  }
+}
+body {
+    background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
+  }
+
+
+#formGroupExampleInput3 {
+    padding: 15%;
+}
+#main-section {
+    width: 60%;
+}
+
+@media screen and (max-width: 991px) {  
+  #linksSection {
+    display: -webkit-inline-box !important;
+    margin-left: 30% !important;
+    width: 100%;
+  }
+  .nav-link {
+    margin-right: 10px;
+    float: right;
+  }
+  #logoname {
+    text-align: center;
+  }
+  #logo {
+    padding-bottom: 0px !important;
+  }
+}

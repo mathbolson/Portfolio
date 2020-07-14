@@ -1,0 +1,118 @@
+@media screen and (max-width: 991px) {  
+  #linksSection {
+    display: -webkit-inline-box !important;
+    margin-left: 30% !important;
+    width: 100%;
+  }
+  .nav-link {
+    margin-right: 10px;
+    float: right;
+  }
+  #logoname {
+    text-align: center;
+  }
+  #logo {
+    padding-bottom: 0px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 980px) {
+	#main-section {
+        width: 86% !important;
+        margin-left: 8% !important;
+    }
+ 
+}
+
+  @media screen and (max-width: 640px) {
+	#main-section {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    .portfoliopics {
+        width: 500px !important;
+        display: inline-block;
+    }
+    .work {
+        width: 500px !important;
+    }
+	#main-section {
+        height: 2200px !important;
+    }
+    #logoname {
+      font-size: 20px !important;
+    }
+  }
+
+#logoname
+  {
+    font-family: 'Michroma', sans-serif;
+    font-size: 30px;
+  }
+
+#logo {
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+  }
+
+  body {
+    background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
+  }
+#h1 {
+    font-family: 'Michroma', sans-serif;
+}
+
+#main-section {
+    width: 60%;
+    margin-left: 100px;
+    height: 1100px;
+    border: 1px solid black
+
+}
+
+.portfoliopics {
+    width: 100%; 
+}
+
+.work {
+    position: relative;
+    width: 40%;
+    overflow: auto;
+    float: left;
+    margin: 20px 0 25px;
+    
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: .8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 300;
+    background: darkgoldenrod;
+    border-bottom: 0;
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+  }
+
+  #footer {
+    height: 60px;
+    margin-top: auto;
+    font-family: 'Michroma', sans-serif;
+  }
