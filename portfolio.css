@@ -62,8 +62,13 @@
     flex-direction: column;
     background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
   }
-#h1 {
+
+  #h1 {
     font-family: 'Michroma', sans-serif;
+}
+
+html, body {
+  height:100%; margin: 0;
 }
 
 #main-section {
