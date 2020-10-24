@@ -3,6 +3,8 @@ body {
     font-size: 16px;
     color: black;
     line-height: 34px;
+    background: url("./assets/background.jpeg");
+
   }
   
   * {
@@ -15,7 +17,7 @@ body {
   h2,
   h3,
   p {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   
   h5 {
@@ -30,7 +32,8 @@ body {
   h2,
   h3 {
     font-family: 'Michroma', sans-serif;
-    color: black;
+    color: darkgoldenrod; 
+    font-weight: bolder;
   }
   
   h1 {
@@ -44,6 +47,9 @@ body {
     font-size: 28px;
   }
   
+  h6 {
+    font-size: 20px;
+  }
   
   /*header*/
  

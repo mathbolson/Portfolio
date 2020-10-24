@@ -48,7 +48,7 @@ body {
     font-size: 18px;
     color: #777;
     line-height: 34px;
-    background: url("http://www.webdesigndev.com/wp-content/uploads/2013/06/Triangle.jpg");
+    background: url("./assets/background.jpeg")
   }
   
   #text {
